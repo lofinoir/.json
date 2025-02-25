@@ -8,8 +8,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Giovanny V.| Photographer | Commercial | Editorial | </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giovanny | Photographer | Commercial | Editorial | </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands." />
     <meta name="keywords"
@@ -53,9 +53,10 @@
     <!-- ===============================================-->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <!-- ===============================================-->
-    <!--    Stylesheets-->
+    <!--    Stylesheets loading order does matter hierarchies overwrite styling applied-->
     <!-- ===============================================-->
 
     <!-- Animate.css -->
@@ -63,8 +64,7 @@
     <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="https://lofinoir.github.io/themeset/style/icomoon.css">
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://lofinoir.github.io/themeset/style/bootstrap.css">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -90,15 +90,40 @@
         .tmblr-iframe--loaded .iframe-controls--desktop .iframe-controls--phone-mobile {
             display: none !important;
         }
-
-        #colorlib-testimony {
-            padding: 50px 0;
-            min-height: 100px;
-        }
     </style>
 
 
+    <style>
+        /* .btn.btn-primary {
+            background-color: #a7a7a7;
+            border-color: #a7a7a7;
+            color: white;
+        } */
 
+        /* .btn.btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0069d9;
+        } */
+
+        .btn.btn-primary {
+            margin: 0 auto;
+            display: block;
+        }
+
+
+        @media (max-width: 767px) {
+
+            /* Adjust 767px as needed */
+            #colorlib-testimony {
+                display: none;
+            }
+        }
+
+        /* #colorlib-testimony {
+            padding: 50px 0;
+            min-height: 100px;
+        } */
+    </style>
 
 
 
@@ -122,56 +147,62 @@
             display: none !important;
         }
     </style>
-
+    <!-- ===============================================-->
+    <!--    Navigation-->
+    <!-- ===============================================-->
     <nav id="colorlib-main-nav" role="navigation">
         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
         <div class="js-fullheight colorlib-table">
             <div class="colorlib-table-cell js-fullheight">
-                <!--SEARCH-->
                 <div class="row">
                     <div class="col-md-12">
-                        <!-- <div class="form-group">
-							<input type="text" class="form-control" id="search"
-								placeholder="Enter any key to search...">
-							<button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
-						</div> -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="search"
+                                placeholder="Enter any key to search...">
+                            <button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
+                        </div>
                     </div>
-                    <!--SEARCH-->
                 </div>
-                <!--menu-->
+                <!-- ===============================================-->
+                <!--    Drop Down menu-->
+                <!-- ===============================================-->
                 <div class="row">
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="overview.html">Overview</a></li>
-                            <li class="active"><a href="work.html">Work</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="https://lofinoir.com/">About</a></li>
+                            <li><a href="https://lofinoir.com/g">Work Samples</a></li>
+                            <!-- <li><a href="#samples">Work Samples</a></li> -->
+                            <li><a href="https://lofinoir.com/contact">Contact</a></li>
+                            <li class="active"></li><a href="https://lofinoir.com/spring">Spring</a></li>
+                            <!-- <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about.html">About</a></li> -->
                         </ul>
                     </div>
                 </div>
+                <!-- ===============================================-->
+                <!--    Tiled Image Navigation-->
+                <!-- ===============================================-->
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="head-title">Works</h2>
-                        <a href="https://64.media.tumblr.com/80061d207b8b07ceb18497d10e928e89/tumblr_inline_rh7dg63ZjZ1wv0fyn_1280.jpg"
+                        <h2 class="head-title">samples</h2>
+                        <a href="https://64.media.tumblr.com/e77bbe68919b7f6410b77b634849fa85/tumblr_inline_rg2jmjSxNS1wv0fyn_500.jpg"
                             class="gallery image-popup-link text-center"
-                            style="background-image: url(https://64.media.tumblr.com/80061d207b8b07ceb18497d10e928e89/tumblr_inline_rh7dg63ZjZ1wv0fyn_1280.jpg);">
+                            style="background-image: url(https://64.media.tumblr.com/e77bbe68919b7f6410b77b634849fa85/tumblr_inline_rg2jmjSxNS1wv0fyn_500.jpg);">
                             <span><i class="icon-search3"></i></span>
                         </a>
-                        <a href="https://64.media.tumblr.com/179cd44e14a03de76e935b5935bd5a05/tumblr_inline_rh7dtkMx021wv0fyn_1280.jpg"
+                        <a href="https://64.media.tumblr.com/b522f926c1d4f68204776713ec21d8d8/tumblr_inline_rg2jrgChsE1wv0fyn_500.jpg"
                             class="gallery image-popup-link text-center"
-                            style="background-image: url(https://64.media.tumblr.com/179cd44e14a03de76e935b5935bd5a05/tumblr_inline_rh7dtkMx021wv0fyn_1280.jpg);">
+                            style="background-image: url(https://64.media.tumblr.com/b522f926c1d4f68204776713ec21d8d8/tumblr_inline_rg2jrgChsE1wv0fyn_500.jpg);">
                             <span><i class="icon-search3"></i></span>
                         </a>
-                        <a href="https://64.media.tumblr.com/4b024616c45699da4986d7cd9cc355a2/tumblr_inline_rjv06ckr2L1wv0fyn_1280.jpg"
+                        <a href="https://64.media.tumblr.com/f5c019b64d52f878ce72011dddcebd2d/tumblr_inline_rg2jscwPrs1wv0fyn_500.jpg"
                             class="gallery image-popup-link text-center"
-                            style="background-image: url(https://64.media.tumblr.com/4b024616c45699da4986d7cd9cc355a2/tumblr_inline_rjv06ckr2L1wv0fyn_1280.jp);">
+                            style="background-image: url(https://64.media.tumblr.com/f5c019b64d52f878ce72011dddcebd2d/tumblr_inline_rg2jscwPrs1wv0fyn_500.jpg);">
                             <span><i class="icon-search3"></i></span>
                         </a>
-                        <a href="https://64.media.tumblr.com/de9f4fa954aa2a6d7a129a382dcd9ad9/tumblr_inline_rp2h618P7B1wv0fyn_1280.jpg"
+                        <a href="https://64.media.tumblr.com/de77f17816db6c39f94f1249c79a631b/tumblr_inline_rg2jqsjJIU1wv0fyn_500.jpg"
                             class="gallery image-popup-link text-center"
-                            style="background-image: url(https://64.media.tumblr.com/de9f4fa954aa2a6d7a129a382dcd9ad9/tumblr_inline_rp2h618P7B1wv0fyn_1280.jpg);">
+                            style="background-image: url(https://64.media.tumblr.com/de77f17816db6c39f94f1249c79a631b/tumblr_inline_rg2jqsjJIU1wv0fyn_500.jpg);">
                             <span><i class="icon-search3"></i></span>
                         </a>
                     </div>
@@ -179,519 +210,1412 @@
             </div>
         </div>
     </nav>
-
+    <!-- ===============================================-->
+    <!--    Header-->
+    <!-- ===============================================-->
     <div id="colorlib-page">
         <header>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="colorlib-navbar-brand">
-                            <a class="colorlib-logo" href="index.html"><span>gv</span><span>ny</span></a>
+                            <a class="colorlib-logo" href="https://lofinoir.com/"><span>GV</span><span>NY</span></a>
                         </div>
                         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
                     </div>
                 </div>
             </div>
         </header>
-        <div id="colorlib-work">
+        <!-- ===============================================-->
+        <!--    Section 1-->
+        <!-- ===============================================-->
+
+        <div id="colorlib-about">
             <div class="container">
                 <div class="row text-center">
-                    <h2 class="bold">giovanny</h2>
+                    <h2 class="bold">BESPOKE</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-                        <span>TEST PAGE</span>
-                        <h2>Commissions</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="rotate">
-                            <h2 class="heading">Portfolio</h2>
+                <div class="row row-padded-bottom">
+                    <div class="col-md-5 animate-box">
+                        <div class="owl-carousel3">
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/f8d2e126560fefa857c4a2c0cde35442/tumblr_inline_s4m5qzJhpf1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/094397b2ce1d34e727577defc9cd1ea0/tumblr_inline_s4m5roNj3Q1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/7e6bce64950645dab08dcb1684483905/tumblr_inline_s4m5r9WcWM1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/842218ca51c2a1768379f849a80b2403/tumblr_inline_s4ve5quAGz1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/eb057290465cea903ccd53c4a61577af/tumblr_inline_s4ve5uQPAx1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/6ce4f9797ae82b5101c2e1ef8124e07f/tumblr_inline_s4ve5z8YVd1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/173f8393edb2fa4c5836c77e6cbc77ba/tumblr_inline_s4ve6awRFG1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/2faeb821c15e4c56b79e53b7c08ef0cf/tumblr_inline_s4m5s4l1Dq1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <!-- <div class="item">
+                                <img class="img-responsive about-img" src="////image"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div> -->
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/ae78400095dc32d700295e6b7ceedb58/tumblr_inline_s4m5seozrm1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/b0e4d55bb142937960a3f18155cfcd97/tumblr_inline_s4veg1dbD11wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/390a1f16ed73b7f523053991a1de7cc5/tumblr_inline_s4veg6QVIK1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/d88f9633251f8ec76893f46c561e4884/tumblr_inline_s4vegcI3Fb1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/3aa1be3063988811d97a4e2435b5db16/tumblr_inline_s4vegiNlKp1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/42f573beb0095d65e14f61d9f2e61a83/tumblr_inline_s4vegodFfD1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="https://64.media.tumblr.com/38b13d62a0ae41bde3ee4c0ef15749aa/tumblr_inline_s4vegsQivm1wv0fyn_1280.jpg"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div>
+                            <!-- <div class="item">
+                                <img class="img-responsive about-img"
+                                    src="////image"
+                                    alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                            </div> -->
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-md-push-1 animate-box">
+                        <div class="about-desc">
+                            <h2><span>Stylized Photography Sessions</span><span>Spring 2025</span></h2>
+                            <div class="desc">
+                                <div class="rotate">
+                                    <h2 class="heading">BESPOKE</h2>
+                                </div>
+                                <h4>Bespoke Fashion-Forward Portraiture & Personal Branding Photography Sessions,</h4>
+                                <p></p> In today's dynamic world, crafting a compelling personal brand is essential for
+                                success. Whether you're a seasoned
+                                executive, a rising entrepreneur, a modern individual seeking to make a genuine and
+                                memorable first impression, or an
+                                Actor or Actress seeking captivating headshots and online profile photos to showcase
+                                your talent and versatility, our
+                                bespoke portraiture and personal branding photography sessions will curate your
+                                personality and style and elevate your
+                                online presence.
+                                <p></p>
+                                <p></p>
+                                <p>
+                                <h6>* In a testament to our enduring commitment to the entertainment
+                                    industry, we are pleased to announce the permanent
+                                    extension of our complimentary discounts to all SAG-AFTRA, WGA, &amp; Local
+                                    I.A.T.S.E. members (see contact form below for full list). This ongoing
+                                    initiative underscores our unwavering support for the talented individuals
+                                    who bring life to our screens and stories.</h6>
+                                </p>
+
+                                <!-- CTA   -->
+                                <p><a href="#contact" class="btn btn-primary btn-outline">Request a Session</a></p>
+                                <!-- insertion break point   -->
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row">
-                    <!-- GRID INSERT -->
-                    <div class="col-md-12">
-                        <div class="work-entry animate-box">
-                            <a href="work-single.html" class="work-img"
-                                style="background-image: url(https://64.media.tumblr.com/80061d207b8b07ceb18497d10e928e89/tumblr_inline_rh7dg63ZjZ1wv0fyn_1280.jpg);">
-                                <div class="display-t">
-                                    <div class="work-name">
-                                        <h2>Pursuing Best</h2>
+
+                <!-- ===============================================-->
+                <!--    Section blank triple columns W/image on Left-->
+                <!-- ===============================================-->
+
+
+                <div id="colorlib-about">
+                    <div class="container">
+                        <div class="row text-center">
+                            <h2 class="bold">about </h2>
+                        </div>
+                        <div class="row row-padded-bottom">
+                            <div class="col-md-5 animate-box">
+                                <div class="owl-carousel3">
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/818248487bae9f8761812e41e450c041/tumblr_inline_r1yw0lXvar1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/72c63bcf13b21d83a4ca7af996bea8ab/tumblr_inline_s4yfqzGU4g1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/1880ac28611d366ec50644581db4dc0f/tumblr_inline_s4yfreCZlD1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/86c29d5df99a64ffbeb38567e05aef96/tumblr_inline_s4yfrl0Gs21wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/0bae3d8dff6ac29b7791687127310df2/tumblr_inline_s4yfsj0x4b1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/58c12fc36a144d691f8ec9b32d66f3d7/tumblr_inline_s4yfsqtEG11wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/4d3fff3f88ea93db78158206a39f4db5/tumblr_inline_s4yft64azJ1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/8a40ec2ed09f1aaa8db1cb65d73da115/tumblr_inline_s4yftjaoUi1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/4bca85b9e797ae6ff7a42cccc1d1b36f/tumblr_inline_s4rjj3Ubsc1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/17239b3bce79e49fe6111f71fe7e7f66/tumblr_inline_s4rjetDZZO1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/19644ddcb71535b823f2896fde59773c/tumblr_inline_s4rii2T4Tm1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
+                                    </div>
+
+                                    <div class="item">
+                                        <img class="img-responsive about-img"
+                                            src="https://64.media.tumblr.com/e1c60646242069573fb44229ec36a129/tumblr_inline_rp2grzcWnY1wv0fyn_1280.jpg"
+                                            alt="Commercial and Advertising Editorial photographer, creating thought provoking impactful bold photos for brands.">
                                     </div>
                                 </div>
-                            </a>
-                            <div class="col-md-4 col-md-offset-4">
-                                <div class="desc">
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                        right at the coast of the Semantics, a large language ocean.</p>
-                                    <p class="read"><a href="#">View details</a></p>
+                            </div>
+
+                            <div class="col-md-6 col-md-push-1 animate-box">
+                                <div class="about-desc">
+                                    <h2><span>story &amp; style</span></h2>
+                                    <div class="desc">
+                                        <div class="rotate">
+                                            <h2 class="heading">Authenticity</h2>
+                                        </div>
+                                        <h5>Empower Your Personal Brand with a Tailored Portraiture Session</h5>
+                                        <p>Our sessions are designed for those who appreciate efficiency and
+                                            personalized
+                                            attention. We prioritize understanding
+                                            your unique needs and aspirations, ensuring that your portraits seamlessly
+                                            align
+                                            with your brand identity. </p>
+                                        <h5>Effortlessly Integrate Your Session into Your Busy Schedule</h5>
+                                        <p>We understand that time is precious, especially for high-achieving
+                                            individuals. Our
+                                            bespoke sessions are meticulously
+                                            planned to maximize efficiency, ensuring that we capture stunning images, we
+                                            create
+                                            a variety of looks within a single
+                                            location, minimizing disruptions to your schedule.</p>
+                                        <p><a href="#samples" class="btn btn-primary btn-outline">sample gallery</a></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- GRID INSERT -->
-                    <div class="col-md-12">
-                        <div class="work-entry animate-box">
-                            <a href="work-single.html" class="work-img"
-                                style="background-image: url(https://64.media.tumblr.com/179cd44e14a03de76e935b5935bd5a05/tumblr_inline_rh7dtkMx021wv0fyn_1280.jpg);">
-                                <div class="display-t">
-                                    <div class="work-name">
-                                        <h2>Coordinates</h2>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="col-md-4 col-md-offset-4">
-                                <div class="desc">
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                        right at the coast of the Semantics, a large language ocean.</p>
-                                    <p class="read"><a href="#">View Details</a></p>
-                                </div>
+                        <div class="row">
+                            <div class="col-md-4 animate-box">
+                                <h5>Unparalleled Expertise for Professionals and Modern Individuals</h5>
+                                <p>Our clientele encompasses a diverse range of individuals seeking to elevate their
+                                    personal
+                                    brands, including:</p>
+                                <ul>
+                                    <li>Young Professionals: Launch your career with confidence and Make a strong first
+                                        impression in the corporate
+                                        world.</li>
+                                    <li>Entrepreneurs: Showcase your passion and expertise, attracting potential
+                                        investors and clients.</li>
+                                    <li>Modern Individuals: Capture your authentic style and personality, crafting a
+                                        memorable online presence.</li>
+                                    <li>Families: Preserve precious memories with stunning lifestyle portraits that
+                                        reflect your unique family dynamic.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 animate-box">
+                                <h5>Harness the Power of Visual Storytelling</h5>
+                                <p>With a pre-planned shot list tailored to your specific needs, our professional
+                                    branding photography sessions harness the
+                                    power of visual storytelling to elevate your brand.</p>
+                                <ul>
+                                    <li>LinkedIn and IMDb Profile Updates: Create captivating headshots that command
+                                        attention and enhance your
+                                        professional profile.</li>
+
+                                    <li>Connect with Your Audience: Build trust and foster genuine connections with
+                                        your target audience through powerful
+                                        visual storytelling.</li>
+
+                                    <li>Establish Brand Authenticity: Showcase your true essence, mission, and values,
+                                        inviting your audience to connect
+                                        authentically.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 animate-box">
+                                <h5>Bespoke Portraiture: An Investment in Your Personal Brand</h5>
+                                <p>Our bespoke portraiture sessions are an investment in your personal brand, empowering
+                                    you to make a lasting impact in
+                                    today's digital landscape. Contact us today to elevate your online presence and
+                                    unlock the power of visual storytelling.</p>
+                                <ul>
+
+                                    <li>Stand Out in the Crowd: Elevate your online presence with captivating portraits
+                                        that
+                                        reflect your unique personality and
+                                        style. Our bespoke portraiture sessions will help you create a strong visual
+                                        identity
+                                        that makes a lasting impression in
+                                        today's digital world.</li>
+                                    <li>Inspire Confidence and Trust: Project an image of professionalism and expertise
+                                        with
+                                        high-quality portraits that exude
+                                        leadership and credibility. Our bespoke portraiture sessions will help you
+                                        establish
+                                        yourself as a thought leader in
+                                        your industry and attract more clients or business opportunities</li>
+                                    <li>A Range of Character and Emotion: Showcase your talent and versatility with
+                                        stunning
+                                        headshots and online profile photos that highlight your unique
+                                        qualities. Our bespoke portraiture sessions will help you create a compelling
+                                        portfolio
+                                        that opens doors and attracts the attention of the right industry professionals.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- GRID INSERT -->
-                    <div class="col-md-12">
-                        <div class="work-entry animate-box">
-                            <a href="work-single.html" class="work-img"
-                                style="background-image: url(https://64.media.tumblr.com/4b024616c45699da4986d7cd9cc355a2/tumblr_inline_rjv06ckr2L1wv0fyn_1280.jpg);">
-                                <div class="display-t">
-                                    <div class="work-name">
-                                        <h2>Cristall</h2>
+                </div>
+
+
+                <!-- ===============================================-->
+                <!--    Section 2 Sessions-->
+                <!-- ===============================================-->
+                <div class="row" id="sessions">
+
+                    <div class="col-md-4 animate-box">
+
+                        <div class="container">
+                            <div class="row text-center">
+                                <h2 class="bold">Sessions</h2>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="rotate">
+                                        <h2 class="heading">investment</h2>
                                     </div>
                                 </div>
-                            </a>
-                            <div class="col-md-4 col-md-offset-4">
-                                <div class="desc">
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                        right at the coast of the Semantics, a large language ocean.</p>
-                                    <p class="read"><a href="#">View details</a></p>
-                                </div>
+
                             </div>
                         </div>
+                        <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+
+                            <span>Essentials:</span>
+                            <h2>Modern & Captivating Vignettes</h2>
+                            <p>Be Different and Unforgettable with a sophisticated photoshoot experience designed for
+                                young modern, professional
+                                individuals on our most streamlined and adaptable session</p>
+                            <p>*the bespoke session that covers headshots &amp; online profile photos, model book/leave
+                                behinds, and
+                                digital snaps</p>
+                            <ul>
+                                <li>15 minute photography session</li>
+                                <li>5 to 8 high resolution, edited digital images from the gallery</li>
+                                <li>images delivered with color grade + black & white variations</li>
+                                <li>Complimentary portrait mode photographs with smartphone</li>
+                                <li>Private personalized pinterest board with styling and Mise-en-scène Direction </li>
+                                <li>Access to all images in gallery and purchase additional photographs À la carte</li>
+                            </ul>
+                            <h2>$259</h2>
+                        </div>
                     </div>
-                    <!-- GRID INSERT -->
+                    <div class="col-md-4 animate-box">
+                        <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+                            <span>Distinctive:</span>
+                            <h2>Your photoshoot Experience at New Heights</h2>
+                            <p>Elevated to Create Exceptional memories, Immerse yourself with sophisticated and
+                                indulgent photographs on a photoshoot that blends sophistication and dynamic
+                                street-style</p>
+                            <p>*most popular session &amp; client favorite</p>
+                            <ul>
+                                <li>20 minute photography session</li>
+                                <li>10 to 15 high resolution, edited digital images from the gallery</li>
+                                <li>images delivered with color grade + black & white variations</li>
+                                <li>Vertical on-brand Cinemagraph</li>
+                                <li>complimentary portrait mode photographs with smartphone</li>
+                                <li>Private personalized pinterest board with styling and Mise-en-scène Direction</li>
+                                <li>Access to all images in gallery and purchase additional photographs À la carte</li>
+
+                            </ul>
+                            <h2>$339</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate-box">
+                        <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+                            <span>Signature:</span>
+                            <h2>Your Unique Narrative on photographs that define you</h2>
+                            <p>Personalized to your unique needs; our Signature package is the ultimate expression of
+                                yourself in a stylized collection
+                                of photographs.</p>
+                            <p>*our most comprehensive bespoke session</p>
+                            <ul>
+                                <li>30 minute photography session</li>
+                                <li>20+ high resolution, edited digital images from the gallery</li>
+                                <li>images delivered with color grade + black & white variations</li>
+                                <li>Vertical on-brand Cinemagraph</li>
+                                <li>complimentary portrait mode photographs with smartphone</li>
+                                <li>Private personalized pinterest board with styling and Mise-en-scène Direction</li>
+                                <li>Access to all images in gallery and purchase additional photographs À la carte</li>
+                            </ul>
+                            <h2>$489</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate-box">
+                        <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+                            <span>Bespoke Editorial Full Session:</span>
+                            <h2>our most comprehensive session</h2>
+                            <p>Indulge in the artistry of photography and create a timeless portfolio that celebrates
+                                your extraordinary life in a curated collection of stylized images</p>
+                            <p>* Experience a Personalized Portraiture Session, Curated &amp; Planned Every Step of the
+                                Way
+                            </p>
+                            <ul>
+                                <li>1.5+ hour on location photography session</li>
+                                <li>60 to 80 high resolution, edited digital images from the gallery</li>
+                                <li>Film Photographs on Fujifilm Vintage Camera</li>
+                                <li>Cinematic Highlight Video</li>
+                                <li>images delivered with color grade + black & white variations</li>
+                                <li>Vertical on-brand Cinemagraph</li>
+                                <li>complimentary portrait mode photographs with smartphone</li>
+                                <li>Private personalized pinterest board with styling and Mise-en-scène Direction</li>
+                                <li>Access to all images in gallery and purchase additional photographs À la carte</li>
+                            </ul>
+                            <p><a href="#contact" class="btn btn-primary btn-outline">details</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 animate-box">
+                        <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+                            <span>Editorial & Branding session:</span>
+                            <h2>Visual Storytelling: The Power of Quality Images</h2>
+
+                            <p>Intentional, strategic, beautiful photo and video content, created to elevate your brand,
+                                your business, and your
+                                storytelling online or in print.</p>
+                            <p>*Photos include unlimited commercial, advertising and promotional print usage license in
+                                perpetuity.
+                            </p>
+                            <ul>
+                                <li>all features of a Bespoke Editorial Full Session</li>
+                                <li>4 or 8 hours of shooting</li>
+                                <li>400+ or 800+ digital images Color Corrected, Color Graded and edited in personal
+                                    style delivered</li>
+                                <li>video footage delivered un-graded un-sequenced un-edited</li>
+                                <li>extended discounts on all À la carte Add-Ons</li>
+                                <li>Stylist Consultation</li>
+                                <li>Hair & Make Up Artist Consultation</li>
+                            </ul>
+                            <p><a href="#contact" class="btn btn-primary btn-outline">details</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate-box">
+                        <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+                            <span>Comp Card (Zed Card) Session:</span>
+                            <h2>adaptable, approachable, and memorable.</h2>
+
+                            <p>Forward-thinking models choose to invest in self-funded shoots, to build comprehensive
+                                portfolios that highlight their
+                                professional versatility.
+                            </p>
+
+                            <p>*New &amp; unsigned models seeking an elevated &amp; strategic approach establishing
+                                agency interest early.
+                            </p>
+                            <ul>
+                                <li>Build a diverse portfolio that showcases range and versatility</li>
+                                <li>A dynamic platform to experiment and build a diverse portfolio
+                                    that grabs attention.</li>
+                                <li>Test shoots, offer valuable insight into industry trends empowering models to
+                                    make informed decisions about their career trajectory and navigate the industry.
+                                </li>
+                                <li>"Fresh faces" test shoots allow agencies to identify and nurture new talent,
+                                    expanding their roster and staying
+                                    ahead of
+                                    the curve in a constantly evolving industry.</li>
+                            </ul>
+                            <p><a href="#contact" class="btn btn-primary btn-outline">details</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                </div>
+            </div>
+        </div>
+        <!-- ===============================================-->
+        <!--    Section 3 Features-->
+        <!-- ===============================================-->
+        <div id="colorlib-services" id="features">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="bold">Features</h2>
+                </div>
+                <div class="row">
                     <div class="col-md-12">
-                        <div class="work-entry animate-box">
-                            <a href="work-single.html" class="work-img"
-                                style="background-image: url(https://64.media.tumblr.com/de9f4fa954aa2a6d7a129a382dcd9ad9/tumblr_inline_rp2h618P7B1wv0fyn_1280.jpg);">
-                                <div class="display-t">
-                                    <div class="work-name">
-                                        <h2>Black</h2>
+                        <div class="services-flex">
+                            <div class="one-third">
+                                <div class="row">
+                                    <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+                                        <div class="rotate">
+                                            <h2 class="heading">included</h2>
+                                        </div>
+                                        <span>features</span>
+                                        <h2>What is included</h2>
+                                        <!-- <p>AAAAAAAAAAAAAAAAAAAAAA</p> -->
+                                        <ul>
+                                            <li>High Resolution images with print release</li>
+                                            <li>images delivered with color grade + black & white variations</li>
+                                            <li>Online Gallery 3 Month Access included</li>
+                                            <li>Complimentary portrait mode photos with smartphone</li>
+                                            <li>up to 7 Subjects for group photographs</li>
+                                            <li>SAG-AFTRA, WGA, &amp; Local I.A.T.S.E. Union Members discount on
+                                                Bespoke sessions</li>
+                                            <li>Access to private preview &amp; selection gallery of Entire Shoot</li>
+                                            <li>options to purchase additional High Resolution images</li>
+                                            <li>direct ordering of prints from studio approved professional print lab
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </a>
-                            <div class="col-md-4 col-md-offset-4">
-                                <div class="desc">
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                        right at the coast of the Semantics, a large language ocean.</p>
-                                    <p class="read"><a href="#">View details</a></p>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="rotate">
+                                            <h2 class="heading">À la carte Add-Ons</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="services animate-box">
+                                            <h3>Available for any Session</h3>
+                                            <ul>
+                                                <li>Purchase additional images from session in your private gallery:
+                                                    Color
+                                                    Corrected, Color Graded and
+                                                    edited in our studio style À la carte: $25 per
+                                                    image</li>
+                                                <li>Purchase all images in gallery Color Corrected, Color Graded and
+                                                    edited
+                                                    in our studio style: $250 (includes all color
+                                                    corrected out-takes / non-selects)</li>
+                                                <li>Magazine (Vogue, Harper's Bazaar, L'Officiel) style image Retouching
+                                                    option:
+                                                    $45 per image
+                                                    Includes facial touch-ups to improve skin texture and reduce
+                                                    visibility
+                                                    of distractions</li>
+                                                <li>Fine-Art &amp; Beauty Advanced Retouching: $75 per image Retouching
+                                                    targeted to drastically reduce distractions present
+                                                    on subject: precision skin retouching, hair retouching/sculpting,
+                                                    distraction removal from garments (wrinkles,
+                                                    logos)digital make-up application / embellish existing.</li>
+                                                <li>Film Photographs on Fujifilm Vintage Cameras $100</li>
+                                                <li>Cinematic Highlight Video $400</li>
+                                                <li>private exclusive locations, time extensions and advanced logistic
+                                                    and
+                                                    production services available</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="one-forth services-img"
+                                style="background-image: url(https://64.media.tumblr.com/da0f6977da11a1890da08f5b0b0f6c0b/tumblr_inline_s4n6zhsWPz1wv0fyn_500.jpg);">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="rotate">
+                                        <h2 class="heading">Film & Video</h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="services animate-box">
+                                        <h3>À la carte Add-On | Additional Information</h3>
+                                        <ul>
+                                            <li>3 to 5 film images per add-on purchased</li>
+                                            <li>Film images printed and digitally scanned</li>
+                                            <li>Film image negatives not included</li>
+                                            <li>Vintage FujiFilm Camera Model varies depending on Film Stock Chosen</li>
+                                            <li>Kodak Portra 400 (color), FujiFilm Pro400h (color),
+                                                Ilford Delta 400 (B&W)</li>
+                                            <li>Film photograph physical prints and digital scans take 10 to 21 days for
+                                                delivery</li>
+                                            <li>pure artistic expression of the scene / results vary on every single
+                                                frame
+                                            </li>
+                                            <li>Video duration varies between 30s to 1.5 minutes</li>
+                                            <li>Video default orientation is full Landscape/Horizontal, However
+                                                Vertical/portrait
+                                                is available at request.</li>
+                                            <li>4K resolution</li>
+                                            <li>Video color graded and edited in our studio style palette</li>
+                                            <li>royalty free music included based on your preference (upbeat, nostalgic,
+                                                seasonal etc...)</li>
+                                            <li>on occasion all out takes are made available in un-edited un-graded
+                                                format
+                                                at
+                                                no extra fee</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- ===============================================-->
-        <!--    Contact Geographic Information-->
-        <!-- ===============================================-->
-
-
-
-
-
-
-
-
-
-
-        <!-- ===============================================-->
-        <!--    END Contact Geographic Information-->
-        <!-- ===============================================-->
-
-        <!-- ===============================================-->
-        <!--    testimony-->
-        <!-- ===============================================-->
-        <div id="colorlib-testimony">
-            <div class="container">
-                <div class="row text-center">
-                    <h2 class="bold">Perspectives</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-                        <span>In Their Words</span>
-                        <h2>clients</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="rotate">
-                            <h2 class="heading">Voices from Our Studio</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row animate-box">
-                    <div class="owl-carousel">
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>"Giovanny is great to work with. Very professional and gives you a
-                                            lot of
-                                            attention. In addition, he makes this photo
-                                            shoot very easy, comfortable and joyful..</p>
-                                        <span>" &mdash; Eve,Tel Aviv-Yafo, Israel
-                                        </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; Giovanny really shot some amazing photographs of me in a
-                                            relatively short amount of time. I'm completely blown away by
-                                            the result. He was very helpful and encouraging in bringing out the
-                                            best of me in the shots. I would highly recommend
-                                            this to anyone to just capture their life in DC. Have some great
-                                            shots that help with my acting PR but also that mark my
-                                            time in DC. Very special experience and Giovanny is excellent! </p>
-                                        <span>" &mdash; Jerod,Los Angeles, Ca </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; I have used photographers very often. Giovanny is a real
-                                            professional. I mean that he is actually a seasoned, traveler,
-                                            experienced and tenured professional photographer. The shoot was at
-                                            a higher level. He coaches you, seeks the perfect
-                                            shot. The results were amazing. I highly encourage anyone to take
-                                            advantage of the rare opportunity to book a session
-                                            with Giovanny. You are very unlikely to have this opportunity again.
-                                            Highly recommend it if you want to go above a basic
-                                            photoshoot. </p>
-                                        <span>" &mdash; Nestor, Sant Gervasi, Barcelona, Spain </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; Fun and great experience with Giovanny. He know the best
-                                            spots to take great pictures along the way in the subway.
-                                            Definitely you need to take it if you want to practice and learn
-                                            about photography. </p>
-                                        <span>" &mdash; Pedro, Huixquilucan de Degollado, México </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; Giovanny is super patient and professional. He will show you
-                                            the way, how to look nice in front of the camera, pick the
-                                            right locations and lead you all the way through the process. :)</p>
-                                        <span>" &mdash; Lucie, Prague, Czechia </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; Giovanny is a true professional, talent photographer and
-                                            photojournalist. Giovanny was able to create an experience for
-                                            me with wonderful unique locations and captured the best shot in
-                                            snow and rain in D.C that I would never forget. I
-                                            recommend him!! </p>
-                                        <span>" &mdash; Farida, طريق الظَّفرة - Al Mushrif - Abu Dhabi - United
-                                            Arab Emirates </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; Amazing photographer with customized photo shoot based on my
-                                            own wants. Even thought it was raining the photographer
-                                            knew the exact backup and location around this problem. Excellent
-                                            person and amazing photographer! </p>
-                                        <span>" &mdash; Pranav, Bandra West, Mumbai, Maharashtra, India </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>"I was truly impressed by Giovanny's ability to capture the essence of
-                                            our
-                                            brand in both studio and
-                                            location shoots. His years of working in editorial photography was
-                                            evident
-                                            in the
-                                            stunning images they produced for our
-                                            latest campaign, which perfectly showcased the unique style and quality
-                                            of
-                                            our products. I would highly recommend
-                                            GIovanny to any company looking for a versatile and talented
-                                            photographer
-                                            who can consistently deliver
-                                            high-quality results."</p>
-                                        <span>" Jennifer H. Art-Director +ropiques Cote D'azur </Datag></span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; The shoot was incredible! My Husband and I have
-                                            different backgrounds when it comes to professional shoots and
-                                            he was able to meet us in the middle and allowed us to create
-                                            beautiful pictures!</p>
-                                        <span>" &mdash; Amanda R., New York, NY</span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>&mdash; This was such an incredible experience and I appreciated
-                                            Giovanny’s expertise and background in art and photography!
-                                            This was my first time ever doing a photoshoot like this and he
-                                            really made me feel comfortable, natural and confident.
-                                            Thank you!! -Kim </p>
-                                        <span>" &mdash; Kimberly, Paris, France </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>Giovanny is an amazing and talented photographer. The photos I got
-                                            back
-                                            from
-                                            him were beyond amazing and truthfully more
-                                            than I expected. He is fun and professional. We had a lot of good
-                                            times
-                                            hanging out with him. I would highly highly
-                                            recommend him. Choosing him was definitely one of the highlights of
-                                            my
-                                            trip.
-                                        </p>
-                                        <span>" &mdash; Anastasia,
-                                            Regent’s Park, London, United Kingdom
-                                            .</span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>"When we needed to document our gallery's latest exhibition, we knew we
-                                            could
-                                            trust Giovanny to handle our
-                                            precious artworks with the utmost care and expertise. His knowledge of
-                                            fine
-                                            art photography was invaluable,
-                                            and he was capable of capturing the intricate details and beauty of each
-                                            piece with
-                                            exceptional precision. The resulting images were
-                                            breathtaking and perfectly conveyed the essence of the exhibition."</p>
-                                        <span>" &mdash; Danielle Rutherford-Mitchel Owner, Rutherford & Barnard Art
-                                            Gallery, Turks &amp;
-                                            Caicos</span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>I had fun doing this photoshoot. Gio made me feel comfortable which
-                                            is so
-                                            important for me. And the picture quality was
-                                            amazing. I loved all my pictures !</p>
-                                        <span>" &mdash; Cynthia,
-                                            Miami, FL
-                                        </span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 text-center">
-                                <div class="testimony">
-                                    <blockquote>
-                                        <p>"When we needed to develop a new advertising campaign for a leading
-                                            retail
-                                            brand, we turned to Giovanny for
-                                            his expertise in brand representation across print, digital, social
-                                            media,
-                                            and retail platforms. His ability to
-                                            understand the brand's core messaging and translate it into visually
-                                            impactful images was remarkable. The campaign was a
-                                            resounding success, and we credit Giovanny with playing a
-                                            pivotal role in its achievement."</p>
-                                        <span>" &mdash; Gale Anne Brooks, Director, The Brooks Agency</span>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ===============================================-->
-        <!--    END testimony-->
-        <!-- ===============================================-->
-
-
-        <footer>
-            <div id="footer">
+            <!-- ===============================================-->
+            <!--    Section blank-->
+            <!-- ===============================================-->
+            <div id="colorlib-work">
                 <div class="container">
-                    <!-- <div class="row">
-							<div class="col-md-4 col-pb-sm">
-								<div class="row">
-									<div class="col-md-10">
-										<h2>Say Hello</h2>
-										<p>We're always up for a good conversation.</p>
-										<p><a href="https://lofinoir.com/contact">Contact Me</a></p>
-										<p class="colorlib-social-icons">
-											<a href="#"><i class="icon-facebook4"></i></a>
-											<a href="#"><i class="icon-twitter3"></i></a>
-											<a href="#"><i class="icon-googleplus"></i></a>
-											<a href="#"><i class="icon-dribbble2"></i></a>
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-pb-sm">
-								<h2>Latest Blog</h2>
-								<div class="f-entry">
-									<a href="#" class="featured-img" style="background-image: url(images/img-1.jpg);"></a>
-									<div class="desc">
-										<span>February 15, 2018</span>
-										<h3><a href="#">Art Gallery in Japan</a></h3>
-									</div>
-								</div>
-								<div class="f-entry">
-									<a href="#" class="featured-img" style="background-image: url(images/img-2.jpg);"></a>
-									<div class="desc">
-										<span>February 9, 2018</span>
-										<h3><a href="#">A Japanese Constellation</a></h3>
-									</div>
-								</div>
-								<div class="f-entry">
-									<a href="#" class="featured-img" style="background-image: url(images/img-3.jpg);"></a>
-									<div class="desc">
-										<span>February 15, 2018</span>
-										<h3><a href="#">Road Trip</a></h3>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-pb-sm">
-								<h2>Newsletter</h2>
-								<p>Explore the unique challenges, creative processes, and project dynamics that distinguish the
-									speciality of editorial and commercial photography providing
-									valuable insights for aspiring photographers looking to specialize in either field.</p>
-								<div class="subscribe text-center">
-									<div class="form-group">
-										<input type="text" class="form-control text-center" placeholder="Enter Email address">
-										<input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
-									</div>
-								</div>
-							</div>
-						</div> -->
+                    <div class="row text-center">
+                        <h2 class="bold">giovanny</h2>
+                    </div>
                     <div class="row">
+                        <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+                            <span>Photography</span>
+                            <h2>commissions</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="rotate">
+                                <h2 class="heading">bespoke photograph samples gallery</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="work-entry animate-box">
+                                <div class="col-md-8 col-md-offset-2">
+
+
+                                    <!-- <button class="btn btn-primary btn-outline"
+                                        onclick="window.location.reload();">Reload
+                                        Images</button> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ===============================================-->
+            <!--    3x5-grid-->
+            <!-- ===============================================-->
+
+            <style>
+                @media screen and (max-width: 600px) {
+
+                    .prev,
+                    .next,
+                    .close {
+                        font-size: 75px;
+                    }
+                }
+
+                @media screen and (max-width: 600px) {
+                    .close {
+                        font-size: 50px;
+                    }
+                }
+
+
+                .close {
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                    font-size: 30px;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                .close {
+                    opacity: 1;
+                    border: 2px solid white;
+                }
+            </style>
+            <div class="section-3" id="samples">
+                <div id="lightbox" class="modal">
+                    <!-- <span class="close" id="close-modal">&times;</span>
+                     -->
+                    <span class="close" id="close-modal"><i class="fa-solid fa-xmark"></i></span>
+                    <img id="lightbox-image">
+                    <!-- <a class="prev" id="prev-button">&#9664;</a>
+                    <a class="next" id="next-button">&#9654;</a> -->
+                    <a class="prev" id="prev-button"><i class="fa-solid fa-angle-left"></i></a>
+                    <a class="next" id="next-button"><i class="fa-solid fa-angle-right"></i></a>
+
+
+
+                </div>
+                <div class="image-grid">
+                    <!-- Images will be added dynamically using JavaScript -->
+
+                </div>
+            </div>
+
+            <!-- ===============================================-->
+            <!--    form-->
+            <!-- ===============================================-->
+            <style>
+                body {
+                    font-family: Helvetica, Arial, sans-serif;
+                }
+
+                * {
+                    box-sizing: border-box;
+                }
+
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical;
+                }
+
+                input[type=submit] {
+                    background-color: #5a5a5a;
+                    color: white;
+                    padding: 12px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                input[type=submit]:hover {
+                    background-color: #5a5a5a;
+                }
+
+                /* .container {
+                                            border-radius: 5px;
+                                            background-color: #f2f2f2;
+                                            padding: 100px;
+                                        } */
+            </style>
+
+            <div id="colorlib-contact">
+                <div class="container">
+                    <div class="row text-center">
+                        <h2 class="bold">Contact</h2>
+                    </div>
+                    <div class="row" id="contact">
+                        <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+                            <span>Session Inquiry</span>
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="rotate">
+                                <h2 class="heading">Contact</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 col-md-push-1 animate-box">
+                        <div class="d-flex justify-content-center">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <form action="https://formspree.io/f/moqrqder" method="POST">
+                                            <!-- ////disable this after enable comment out formspree required action line//// -->
+                                            <label for="sendname">Name</label>
+                                            <input type="text" id="sendname" name="sendname" placeholder="Your name..">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="email">your email address</label>
+                                        <input type="text" id="email" name="email" placeholder="email">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="interest">Session</label>
+                                        <select id="interest" name="interest">
+                                            <option value="bespoke">Bespoke Editorial Full Session</option>
+                                            <option value="branding">Editorial & Branding session</option>
+                                            <option value="comp card">Comp Card (Zed Card) Session</option>
+                                            <option value="essentials">Essentials: Modern & Captivating
+                                                Vignettes</option>
+                                            <option value="distinctive">Distinctive: Your photoshoot
+                                                Experience
+                                                at
+                                                New Heights</option>
+                                            <option value="signature">Signature: Your Unique Narrative on
+                                                photographs that define you</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="Date">Date:</label>
+                                        <input type="date" id="date" name="date">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="time">time</label>
+                                        <select id="time" name="time">
+                                            <option value="Mid-day">Mid-day</option>
+                                            <option value="Afternoon">Afternoon</option>
+                                            <option value="evening">Evening</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="time">Entertainment Industry Union Affiliation?</label>
+                                        <select id="time" name="time">
+                                            <option value="NONE">N / A</option>
+                                            <option value="SAG">Screen Actors Guild - American Federation of
+                                                Television and Radio Artists (SAG-AFTRA)</option>
+                                            <option value="WGA">Writers Guild of America, West (WGAW):</option>
+                                            <option value="600">IATSE Local 600: International Cinematographers
+                                                Guild</option>
+                                            <option value="705">IATSE Local 705: Motion Picture Costumers</option>
+                                            <option value="706">IATSE Local 706: Make-Up Artists and Hair Stylists
+                                                Guild</option>
+                                            <option value="839">IATSE Local 839: Animation Guild</option>
+                                            <option value="892">IATSE Local 892: Costume Designers Guild</option>
+                                            <option value="ASC">The American Society of Cinematographers (ASC)
+                                            </option>
+                                            <option value="DGA">Director's Guild of America (DGA)</option>
+                                            <option value="OTHER">other IATSE Local / union or guild (you can list
+                                                below)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="message">instagram | IMDb Page | LinkedIn </label>
+                                        <textarea id="message" name="message"
+                                            placeholder="where could I learn more about you?"
+                                            style="height: 40px;"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="message">Your Message</label>
+                                        <textarea id="message" name="message"
+                                            placeholder="Please tell me all about you, what you want to achieve on your bespoke photoshoot session, and anything else you want to share!"
+                                            style="height:300px"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- ===============================================-->
+            <!--    Contact Geographic Information-->
+            <!-- ===============================================-->
+            <div class="row">
+                <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+                    <span>How to Reach Me</span>
+                    <h2>Right now</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="rotate">
+                        <h2 class="heading">Contact</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Contact Details</h3>
+                    <ul class="contact-info">
+                        <li><i class="icon-phone4"></i> (424) 274-2555</li>
+                        <li>|</li>
+                        <li><i class="icon-envelope2"></i> <a href="mailto:hello@ggvvny.com">hello@ggvvny.com</a>
+                        </li>
+                        <li>|</li>
+                        <li><i class="icon-instagram"></i> <a href="https://www.instagram.com/ggvvny"
+                                target="_blank">@ggvvny</a></li>
+                        <li>|</li>
+                        <li><i class="icon-map5"></i> 9641 W Sunset Blvd, Beverly Hills, CA 90210</li>
+                    </ul>
+                </div>
+                <style>
+                    .contact-info {
+                        list-style: none;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                    }
+
+                    .contact-info li {
+                        display: inline;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+
+                    .contact-info li a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                </style>
+                <!-- <div class="col-md-6 animate-box">
+                                                    <iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.310626505133!2d-118.38931622422229!3d34.08112952524706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbf80b00b901%3A0x539a240b4760e9d1!2s9641%20W%20Sunset%20Blvd%2C%20Beverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1701157773856!5m2!1sen!2sus"
+                                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                </div> -->
+                <!-- <div class="col-md-7 col-md-push-1 animate-box">
+                                                    		                        <div class="row">
+                                                    		                            <div class="col-md-12">
+                                                    		                                <div class="form-group">
+                                                    		                                    <textarea name="" class="form-control" id="" cols="30" rows="7"
+                                                    		                                        placeholder="Message"></textarea>
+                                                    		                                </div>
+                                                    		                            </div>
+                                                    		                            <div class="col-md-6">
+                                                    		                                <div class="form-group">
+                                                    		                                    <input type="text" class="form-control" placeholder="Name">
+                                                    		                                </div>
+                                                    		                            </div>
+                                                    		                            <div class="col-md-6">
+                                                    		                                <div class="form-group">
+                                                    		                                    <input type="text" class="form-control" placeholder="Email">
+                                                    		                                </div>
+                                                    		                            </div>
+                                                    		                            <div class="col-md-12">
+                                                    		                                <div class="form-group">
+                                                    		                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                    		                                </div>
+                                                    		                            </div>
+                                                    		                        </div>
+                                                    		                    </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- ===============================================-->
+    <!--    END Contact Geographic Information-->
+    <!-- ===============================================-->
+
+
+    <!-- ===============================================-->
+    <!--    testimony-->
+    <!-- ===============================================-->
+    <!-- <div id="colorlib-testimony">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="bold">Perspectives</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+                    <span>In Their Words</span>
+                    <h2>clients</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="rotate">
+                        <h2 class="heading">Voices from Our Studio</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="owl-carousel">
+                    <div class="item">
                         <div class="col-md-12 text-center">
-                            <p>
-                                &copy;2025 Giovanny V. | Lofinoir.com |
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                <!-- Copyright &copy;
-										<script>document.write(new Date().getFullYear());</script> All rights reserved | This
-										template is made with <i class="icon-heart4" aria-hidden="true"></i> by <a
-											href="https://colorlib.com" target="_blank">Colorlib</a> -->
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>"Giovanny is great to work with. Very professional and gives you a
+                                        lot of
+                                        attention. In addition, he makes this photo
+                                        shoot very easy, comfortable and joyful..</p>
+                                    <span>" &mdash; Eve,Tel Aviv-Yafo, Israel
+                                    </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; Giovanny really shot some amazing photographs of me in a
+                                        relatively short amount of time. I'm completely blown away by
+                                        the result. He was very helpful and encouraging in bringing out the
+                                        best of me in the shots. I would highly recommend
+                                        this to anyone to just capture their life in DC. Have some great
+                                        shots that help with my acting PR but also that mark my
+                                        time in DC. Very special experience and Giovanny is excellent! </p>
+                                    <span>" &mdash; Jerod,Los Angeles, Ca </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; I have used photographers very often. Giovanny is a real
+                                        professional. I mean that he is actually a seasoned, traveler,
+                                        experienced and tenured professional photographer. The shoot was at
+                                        a higher level. He coaches you, seeks the perfect
+                                        shot. The results were amazing. I highly encourage anyone to take
+                                        advantage of the rare opportunity to book a session
+                                        with Giovanny. You are very unlikely to have this opportunity again.
+                                        Highly recommend it if you want to go above a basic
+                                        photoshoot. </p>
+                                    <span>" &mdash; Nestor, Sant Gervasi, Barcelona, Spain </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; Fun and great experience with Giovanny. He know the best
+                                        spots to take great pictures along the way in the subway.
+                                        Definitely you need to take it if you want to practice and learn
+                                        about photography. </p>
+                                    <span>" &mdash; Pedro, Huixquilucan de Degollado, México </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; Giovanny is super patient and professional. He will show you
+                                        the way, how to look nice in front of the camera, pick the
+                                        right locations and lead you all the way through the process. :)</p>
+                                    <span>" &mdash; Lucie, Prague, Czechia </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; Giovanny is a true professional, talent photographer and
+                                        photojournalist. Giovanny was able to create an experience for
+                                        me with wonderful unique locations and captured the best shot in
+                                        snow and rain in D.C that I would never forget. I
+                                        recommend him!! </p>
+                                    <span>" &mdash; Farida, طريق الظَّفرة - Al Mushrif - Abu Dhabi - United
+                                        Arab Emirates </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; Amazing photographer with customized photo shoot based on my
+                                        own wants. Even thought it was raining the photographer
+                                        knew the exact backup and location around this problem. Excellent
+                                        person and amazing photographer! </p>
+                                    <span>" &mdash; Pranav, Bandra West, Mumbai, Maharashtra, India </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>"I was truly impressed by Giovanny's ability to capture the essence of
+                                        our
+                                        brand in both studio and
+                                        location shoots. His years of working in editorial photography was
+                                        evident
+                                        in the
+                                        stunning images they produced for our
+                                        latest campaign, which perfectly showcased the unique style and quality
+                                        of
+                                        our products. I would highly recommend
+                                        GIovanny to any company looking for a versatile and talented
+                                        photographer
+                                        who can consistently deliver
+                                        high-quality results."</p>
+                                    <span>" Jennifer H. Art-Director +ropiques Cote D'azur </Datag></span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; The shoot was incredible! My Husband and I have
+                                        different backgrounds when it comes to professional shoots and
+                                        he was able to meet us in the middle and allowed us to create
+                                        beautiful pictures!</p>
+                                    <span>" &mdash; Amanda R., New York, NY</span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>&mdash; This was such an incredible experience and I appreciated
+                                        Giovanny’s expertise and background in art and photography!
+                                        This was my first time ever doing a photoshoot like this and he
+                                        really made me feel comfortable, natural and confident.
+                                        Thank you!! -Kim </p>
+                                    <span>" &mdash; Kimberly, Paris, France </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>Giovanny is an amazing and talented photographer. The photos I got
+                                        back
+                                        from
+                                        him were beyond amazing and truthfully more
+                                        than I expected. He is fun and professional. We had a lot of good
+                                        times
+                                        hanging out with him. I would highly highly
+                                        recommend him. Choosing him was definitely one of the highlights of
+                                        my
+                                        trip.
+                                    </p>
+                                    <span>" &mdash; Anastasia,
+                                        Regent’s Park, London, United Kingdom
+                                        .</span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>"When we needed to document our gallery's latest exhibition, we knew we
+                                        could
+                                        trust Giovanny to handle our
+                                        precious artworks with the utmost care and expertise. His knowledge of
+                                        fine
+                                        art photography was invaluable,
+                                        and he was capable of capturing the intricate details and beauty of each
+                                        piece with
+                                        exceptional precision. The resulting images were
+                                        breathtaking and perfectly conveyed the essence of the exhibition."</p>
+                                    <span>" &mdash; Danielle Rutherford-Mitchel Owner, Rutherford & Barnard Art
+                                        Gallery, Turks &amp;
+                                        Caicos</span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>I had fun doing this photoshoot. Gio made me feel comfortable which
+                                        is so
+                                        important for me. And the picture quality was
+                                        amazing. I loved all my pictures !</p>
+                                    <span>" &mdash; Cynthia,
+                                        Miami, FL
+                                    </span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-12 text-center">
+                            <div class="testimony">
+                                <blockquote>
+                                    <p>"When we needed to develop a new advertising campaign for a leading
+                                        retail
+                                        brand, we turned to Giovanny for
+                                        his expertise in brand representation across print, digital, social
+                                        media,
+                                        and retail platforms. His ability to
+                                        understand the brand's core messaging and translate it into visually
+                                        impactful images was remarkable. The campaign was a
+                                        resounding success, and we credit Giovanny with playing a
+                                        pivotal role in its achievement."</p>
+                                    <span>" &mdash; Gale Anne Brooks, Director, The Brooks Agency</span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ===============================================-->
+    <!--    END testimony-->
+    <!-- ===============================================-->
+    <!-- ===============================================-->
+    <!--    Footer-->
+    <!-- ===============================================-->
+
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <!-- <div class="row">
+					<div class="col-md-4 col-pb-sm">
+						<div class="row">
+							<div class="col-md-10">
+								<h2>Say Hello</h2>
+								<p>We're always up for a good conversation.</p>
+								<p><a href="https://lofinoir.com/contact">Contact Me</a></p>
+								<p class="colorlib-social-icons">
+									<a href="#"><i class="icon-facebook4"></i></a>
+									<a href="#"><i class="icon-twitter3"></i></a>
+									<a href="#"><i class="icon-googleplus"></i></a>
+									<a href="#"><i class="icon-dribbble2"></i></a>
 								</p>
 							</div>
 						</div>
 					</div>
+					<div class="col-md-4 col-pb-sm">
+						<h2>Latest Blog</h2>
+						<div class="f-entry">
+							<a href="#" class="featured-img" style="background-image: url(images/img-1.jpg);"></a>
+							<div class="desc">
+								<span>February 15, 2018</span>
+								<h3><a href="#">Art Gallery in Japan</a></h3>
+							</div>
+						</div>
+						<div class="f-entry">
+							<a href="#" class="featured-img" style="background-image: url(images/img-2.jpg);"></a>
+							<div class="desc">
+								<span>February 9, 2018</span>
+								<h3><a href="#">A Japanese Constellation</a></h3>
+							</div>
+						</div>
+						<div class="f-entry">
+							<a href="#" class="featured-img" style="background-image: url(images/img-3.jpg);"></a>
+							<div class="desc">
+								<span>February 15, 2018</span>
+								<h3><a href="#">Road Trip</a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-pb-sm">
+						<h2>Newsletter</h2>
+						<p>Explore the unique challenges, creative processes, and project dynamics that distinguish the
+							speciality of editorial and commercial photography providing
+							valuable insights for aspiring photographers looking to specialize in either field.</p>
+						<div class="subscribe text-center">
+							<div class="form-group">
+								<input type="text" class="form-control text-center" placeholder="Enter Email address">
+								<input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
+							</div>
+						</div>
+					</div>
+				</div> -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            &copy;2025 Giovanny V. | Lofinoir.com & ggvvny.com |
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <!-- Copyright &copy;
+								<script>document.write(new Date().getFullYear());</script> All rights reserved | This
+								template is made with <i class="icon-heart4" aria-hidden="true"></i> by <a
+									href="https://colorlib.com" target="_blank">Colorlib</a> -->
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+						</p>
+					</div>
 				</div>
-			</footer>
-		
-			</div>-->
+			</div>
+		</div>
+	</footer>
+
+	</div>-->
 
 
 
-                                <!-- =============================================== -->
-                                <!--    End of Main Content-->
-                                <!-- ===============================================-->
+                            <!-- =============================================== -->
+                            <!--    End of Main Content-->
+                            <!-- ===============================================-->
 
 
-                                <!-- ===============================================-->
-                                <!--    JavaScripts-->
-                                <!-- ===============================================-->
+                            <!-- ===============================================-->
+                            <!--    JavaScripts-->
+                            <!-- ===============================================-->
 
 
 
-                                <!-- jQuery -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/jquery.min.js"></script>
-                                <!-- jQuery Easing -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/jquery.easing.1.3.js"></script>
-                                <!-- Bootstrap -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/bootstrap.min.js"></script>
-                                <!-- Waypoints -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/jquery.waypoints.min.js"></script>
-                                <!-- Owl Carousel -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/owl.carousel.min.js"></script>
-                                <!-- Magnific Popup -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/jquery.magnific-popup.min.js"></script>
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/js/magnific-popup-options.js"></script>
-                                <!-- Main JS (Do not remove) -->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/apps/main.js"></script>
-                                <!-- grid-modal JS  (Do not remove)-->
-                                <script type="text/javascript"
-                                    src="https://lofinoir.github.io/themeset/apps/3x5v2.js"></script>
+                            <!-- jQuery -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/jquery.min.js"></script>
+                            <!-- jQuery Easing -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/jquery.easing.1.3.js"></script>
+                            <!-- Bootstrap -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/bootstrap.min.js"></script>
+                            <!-- Waypoints -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/jquery.waypoints.min.js"></script>
+                            <!-- Owl Carousel -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/owl.carousel.min.js"></script>
+                            <!-- Magnific Popup -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/jquery.magnific-popup.min.js"></script>
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/js/magnific-popup-options.js"></script>
+                            <!-- Main JS (Do not remove) -->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/apps/main.js"></script>
+                            <!-- grid-modal JS  (Do not remove)-->
+                            <script type="text/javascript"
+                                src="https://lofinoir.github.io/themeset/apps/3x5v2.js"></script>
 
+
+
+
+                            <!-- Place this script at the end of the body tag -->
+                            <script>
+                                var form = document.getElementById("my-form");
+
+                                async function handleSubmit(event) {
+                                    event.preventDefault();
+                                    var status = document.getElementById("my-form-status");
+                                    var data = new FormData(event.target);
+                                    fetch(event.target.action, {
+                                        method: form.method,
+                                        body: data,
+                                        headers: {
+                                            'Accept': 'application/json'
+                                        }
+                                    }).then(response => {
+                                        status.innerHTML = "Thanks for your submission!";
+                                        form.reset()
+                                    }).catch(error => {
+                                        status.innerHTML = "Oops! There was a problem submitting your form"
+                                    });
+                                }
+                                form.addEventListener("submit", handleSubmit)
+                            </script>
+
+                            <!-- <script>
+                $(document).ready(function () {
+                    // Handle navigation menu links and "BOOK A SESSION" button
+                    $('a[href^="#"], .js-smooth-scroll').on('click', function (e) {
+                        e.preventDefault(); // Prevent default scrolling
+
+                        var target = $(this).attr('href'); // Get the target element ID
+
+                        if (target === undefined) {
+                            // Handle "BOOK A SESSION" button
+                            target = '#contact';
+                        }
+
+                        $('html, body').animate({
+                            scrollTop: $(target).offset().top
+                        }, 500); // Smooth scroll to the target element
+
+                        // Add active class to the corresponding menu item (if applicable)
+                        var activeNavItem = $(this).parent();
+                        if (activeNavItem.length) {
+                            activeNavItem.siblings().removeClass('active');
+                            activeNavItem.addClass('active');
+                        }
+                    });
+                });
+
+            </script> -->
 </body>
 
 </html>
